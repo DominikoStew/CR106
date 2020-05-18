@@ -1,0 +1,52 @@
+:root {
+    --primary: #8d0d29; 
+    --secondary: rgb(211, 211, 211);
+}
+body {
+  background-color:var(--primary);
+}
+
+img {
+  height: 30%;
+  width: 30%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    text-shadow: 2px 2px 5px white;
+}
+
+.tc {
+    text-align: center;
+}
+
+.card {
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    margin: 5rem 0;
+    text-shadow: 1px 1px 2px darkgrey;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(23,162,184,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(23,162,184,0);    
+}
+
+.card-header {
+     border-bottom: 2px solid var(--primary);
+}
+
+.card-footer {
+     border-top: 2px solid var(--primary);
+}
+
+ol li a {
+  color: var(--primary);
+}
+
+ol li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
